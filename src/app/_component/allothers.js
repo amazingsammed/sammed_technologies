@@ -1,517 +1,10 @@
 import React from 'react';
-
+import Image from "next/image";
 export default function Allothers() {
     return (<div>
-        <section id="portfolio" className="bg-[#f8f9ff] pb-[70px] pt-[120px]">
-            <div className="container">
-                <div className="mx-[-16px] flex flex-wrap">
-                    <div className="w-full px-4">
-                        <div className="mx-auto text-center mb-[50px] max-w-[600px]"
-                            // style="max-width:600px;margin-bottom:50px"
-                        ><span
-                            className="mb-2 block text-lg font-semibold text-primary">Creative Portfolio</span>
-                            <h2 className="text-3xl font-bold sm:text-4xl md:text-[45px]/[55px] text-black mb-5 undefined">
-                                Recent Works</h2>
-                            <p className="text-lg font-medium text-body-color undefined">There are many variations of passages
-                                of Lorem Ipsum available but the majority have suffered alteration in some form.</p>
-                        </div>
-                    </div>
-                    <div className="w-full px-4">
-                        <div className="portfolio-buttons mb-12 flex flex-wrap items-center justify-center"><button
-                            className="active mb-2 block rounded-full px-5 py-2 text-sm text-body-color sm:text-base sm:font-semibold md:mx-2">All</button><button
-                            className="hover:bg-primary/5 hover:text-primary mb-2 block rounded-full px-5 py-2 text-sm capitalize text-body-color sm:text-base sm:font-semibold md:mx-2">web</button><button
-                            className="hover:bg-primary/5 hover:text-primary mb-2 block rounded-full px-5 py-2 text-sm capitalize text-body-color sm:text-base sm:font-semibold md:mx-2">design</button><button
-                            className="hover:bg-primary/5 hover:text-primary mb-2 block rounded-full px-5 py-2 text-sm capitalize text-body-color sm:text-base sm:font-semibold md:mx-2">app</button><button
-                            className="hover:bg-primary/5 hover:text-primary mb-2 block rounded-full px-5 py-2 text-sm capitalize text-body-color sm:text-base sm:font-semibold md:mx-2">graphic</button><button
-                            className="hover:bg-primary/5 hover:text-primary mb-2 block rounded-full px-5 py-2 text-sm capitalize text-body-color sm:text-base sm:font-semibold md:mx-2">web
-                            design</button></div>
-                    </div>
-                </div>
-                <div className="portfolio-container -mx-4 flex justify-center">
-                    <div className="w-full px-4 xl:w-10/12">
-                        <div>
-                            <div
-                              //  style="display:flex;flex-direction:row;justify-content:center;align-content:stretch;box-sizing:border-box;width:100%;gap:30px"
-                                  >
-                                <div
-                                   // style="display:flex;flex-direction:column;justify-content:flex-start;align-content:stretch;flex:1;width:0;gap:30px"
-                                     >
-                                    <div
-                                      //  className="flex justify-stretch"
-                                    >
-                                        <div className="mb-4">
-                                            <div
-                                                className="group relative mb-8 aspect-[518/291] overflow-hidden rounded-md shadow-service">
-                                                <img alt="image" loading="lazy" decoding="async" data-nimg="fill"
-                                                     className="w-full"
-                                                    // style="position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent"
-                                                     sizes="100vw"
-                                                     srcSet="image_28 640w, image_59 750w, image_60 828w, image_75 1080w, image_65 1200w, image_74 1920w, image_69 2048w, image_1 3840w"
-                                                     src="image_1"/>
-                                                    <div
-                                                        className="invisible absolute left-0 top-0 flex h-full w-full items-center justify-center bg-primary bg-opacity-[17%] opacity-0 transition group-hover:visible group-hover:opacity-100">
-                                                        <button
-                                                            className="glightbox flex h-10 w-10 items-center justify-center rounded-full bg-primary text-white"><svg
-                                                            width="14" height="14" viewBox="0 0 14 14" fill="none"
-                                                            xmlns="http://www.w3.org/2000/svg">
-                                                            <path d="M14 8H8V14H6V8H0V6H6V0H8V6H14V8Z" fill="white"></path>
-                                                        </svg></button></div>
-                                            </div>
-                                            <h3 className="mt-6"><a
-                                                className="mb-3 inline-block text-xl font-semibold text-black hover:text-primary"
-                                                href="/portfolio/startup-landing-page">Startup landing page</a></h3>
-                                            <p className="text-base font-medium text-body-color">Lorem ipsum dolor sit amet,
-                                                consectetur adipiscing elit. Maecenas vitae dolor ultrices libero.</p>
-                                        </div>
-                                    </div>
-                                    <div //className="flex justify-stretch"
-                                    >
-                                        <div className="mb-4">
-                                            <div
-                                                className="group relative mb-8 aspect-[518/291] overflow-hidden rounded-md shadow-service">
-                                                <img alt="image" loading="lazy" decoding="async" data-nimg="fill"
-                                                     className="w-full"
-                                                    // style="position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent"
-                                                     sizes="100vw"
-                                                     srcSet="image_70 640w, image_63 750w, image_68 828w, image_78 1080w, image_73 1200w, image_67 1920w, image_61 2048w, image_5 3840w"
-                                                     src="image_5"/>
-                                                    <div
-                                                        className="invisible absolute left-0 top-0 flex h-full w-full items-center justify-center bg-primary bg-opacity-[17%] opacity-0 transition group-hover:visible group-hover:opacity-100">
-                                                        <button
-                                                            className="glightbox flex h-10 w-10 items-center justify-center rounded-full bg-primary text-white"><svg
-                                                            width="14" height="14" viewBox="0 0 14 14" fill="none"
-                                                            xmlns="http://www.w3.org/2000/svg">
-                                                            <path d="M14 8H8V14H6V8H0V6H6V0H8V6H14V8Z" fill="white"></path>
-                                                        </svg></button></div>
-                                            </div>
-                                            <h3 className="mt-6"><a
-                                                className="mb-3 inline-block text-xl font-semibold text-black hover:text-primary"
-                                                href="/portfolio/job-portal-landing-page">Job portal landing page</a>
-                                            </h3>
-                                            <p className="text-base font-medium text-body-color">Lorem ipsum dolor sit amet,
-                                                consectetur adipiscing elit. Maecenas vitae dolor ultrices libero.</p>
-                                        </div>
-                                    </div>
-                                    <div 
-                                    //    className="flex justify-stretch"
-                                    >
-                                        <div className="mb-4">
-                                            <div
-                                                className="group relative mb-8 aspect-[518/291] overflow-hidden rounded-md shadow-service">
-                                                <img alt="image" loading="lazy" decoding="async" data-nimg="fill"
-                                                     className="w-full"
-                                                    // style="position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent"
-                                                     sizes="100vw"
-                                                     srcSet="image_72 640w, image_71 750w, image_64 828w, image_66 1080w, image_77 1200w, image_76 1920w, image_79 2048w, image 3840w"
-                                                     src="image"/>
-                                                    <div
-                                                        className="invisible absolute left-0 top-0 flex h-full w-full items-center justify-center bg-primary bg-opacity-[17%] opacity-0 transition group-hover:visible group-hover:opacity-100">
-                                                        <button
-                                                            className="glightbox flex h-10 w-10 items-center justify-center rounded-full bg-primary text-white"><svg
-                                                            width="14" height="14" viewBox="0 0 14 14" fill="none"
-                                                            xmlns="http://www.w3.org/2000/svg">
-                                                            <path d="M14 8H8V14H6V8H0V6H6V0H8V6H14V8Z" fill="white"></path>
-                                                        </svg></button></div>
-                                            </div>
-                                            <h3 className="mt-6"><a
-                                                className="mb-3 inline-block text-xl font-semibold text-black hover:text-primary"
-                                                href="/portfolio/saas-landing-page">SaaS landing page</a></h3>
-                                            <p className="text-base font-medium text-body-color">Lorem ipsum dolor sit amet,
-                                                consectetur adipiscing elit. Maecenas vitae dolor ultrices libero.</p>
-                                        </div>
-                                    </div>
-                                    <div className="flex justify-stretch">
-                                        <div className="mb-4">
-                                            <div
-                                                className="group relative mb-8 aspect-[518/291] overflow-hidden rounded-md shadow-service">
-                                                <img alt="image" loading="lazy" decoding="async" data-nimg="fill"
-                                                     className="w-full"
-                                                    // style="position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent"
-                                                     sizes="100vw"
-                                                     srcSet="image_80 640w, image_82 750w, image_81 828w, image_84 1080w, image_83 1200w, image_87 1920w, image_85 2048w, image_7 3840w"
-                                                     src="image_7"/>
-                                                    <div
-                                                        className="invisible absolute left-0 top-0 flex h-full w-full items-center justify-center bg-primary bg-opacity-[17%] opacity-0 transition group-hover:visible group-hover:opacity-100">
-                                                        <button
-                                                            className="glightbox flex h-10 w-10 items-center justify-center rounded-full bg-primary text-white"><svg
-                                                            width="14" height="14" viewBox="0 0 14 14" fill="none"
-                                                            xmlns="http://www.w3.org/2000/svg">
-                                                            <path d="M14 8H8V14H6V8H0V6H6V0H8V6H14V8Z" fill="white"></path>
-                                                        </svg></button></div>
-                                            </div>
-                                            <h3 className="mt-6"><a
-                                                className="mb-3 inline-block text-xl font-semibold text-black hover:text-primary"
-                                                href="/portfolio/business-corporate-template">Business & corporate
-                                                template</a></h3>
-                                            <p className="text-base font-medium text-body-color">Lorem ipsum dolor sit amet,
-                                                consectetur adipiscing elit. Maecenas vitae dolor ultrices libero.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-    <section id="clients" className="relative bg-black pb-[250px] pt-20">
-        <div className="container">
-            <div className="mx-[-16px] flex flex-wrap">
-                <div className="w-full px-4">
-                    <div className="mx-auto mb-12 max-w-[570px] text-center">
-                        <h2 className="mb-4 text-3xl font-bold text-white md:text-4xl">Some of Our Happy Clients</h2>
-                        <p className="text-lg font-medium text-body-color">There are many variations of passages of Lorem
-                            Ipsum available but the majority have suffered alteration in some form.</p>
-                    </div>
-                </div>
-                <div className="w-full px-4">
-                    <div className="flex flex-wrap items-center justify-center"><a href="https://lineicons.com"
-                                                                               target="_blank" rel="nofollow noreferrer"
-                                                                               className="relative mx-3 flex max-w-[120px] items-center justify-center py-[15px] opacity-60 grayscale transition hover:opacity-100 hover:grayscale-0 sm:mx-4 lg:max-w-[130px] xl:mx-6 xl:max-w-[150px] 2xl:mx-8 2xl:max-w-[160px]"><img
-                        alt="Lineicons" loading="lazy" width="246" height="40" decoding="async" data-nimg="1"
-                       // 
-                        src="images/lineicons-2.36d02cde.svg"/></a><a
-                        href="https://formbold.com" target="_blank" rel="nofollow noreferrer"
-                        className="relative mx-3 flex max-w-[120px] items-center justify-center py-[15px] opacity-60 grayscale transition hover:opacity-100 hover:grayscale-0 sm:mx-4 lg:max-w-[130px] xl:mx-6 xl:max-w-[150px] 2xl:mx-8 2xl:max-w-[160px]"><img
-                        alt="Formbold" loading="lazy" width="219" height="40" decoding="async" data-nimg="1"
-                        // 
-                        src="images/formbold-2.8ffdccb3.svg"/></a><a
-                        href="https://tailadmin.com" target="_blank" rel="nofollow noreferrer"
-                        className="relative mx-3 flex max-w-[120px] items-center justify-center py-[15px] opacity-60 grayscale transition hover:opacity-100 hover:grayscale-0 sm:mx-4 lg:max-w-[130px] xl:mx-6 xl:max-w-[150px] 2xl:mx-8 2xl:max-w-[160px]"><img
-                        alt="Tailadmin" loading="lazy" width="221" height="40" decoding="async" data-nimg="1"
-                      //   
-                        src="images/tailadmin-2.ffc1bf85.svg"/></a><a
-                        href="https://uideck.com" target="_blank" rel="nofollow noreferrer"
-                        className="relative mx-3 flex max-w-[120px] items-center justify-center py-[15px] opacity-60 grayscale transition hover:opacity-100 hover:grayscale-0 sm:mx-4 lg:max-w-[130px] xl:mx-6 xl:max-w-[150px] 2xl:mx-8 2xl:max-w-[160px]"><img
-                        alt="Uideck" loading="lazy" width="171" height="40" decoding="async" data-nimg="1"
-                       // 
-                        src="images/uideck-2.6b8ba64f.svg"/></a><a
-                        href="https://graygrids.com" target="_blank" rel="nofollow noreferrer"
-                        className="relative mx-3 flex max-w-[120px] items-center justify-center py-[15px] opacity-60 grayscale transition hover:opacity-100 hover:grayscale-0 sm:mx-4 lg:max-w-[130px] xl:mx-6 xl:max-w-[150px] 2xl:mx-8 2xl:max-w-[160px]"><img
-                        alt="Graygrids" loading="lazy" width="193" height="40" decoding="async" data-nimg="1"
-                       // 
-                        src="images/graygrids-2.432f9e06.svg"/></a></div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section className="mt-[-160px] bg-white">
-        <div className="container">
-            <div className="relative z-10 overflow-hidden rounded-md bg-primary py-[70px] text-center">
-                <div className="relative z-10 mx-auto max-w-[770px] px-6">
-                    <h2 className="mb-10 text-2xl font-bold leading-tight text-white md:text-[40px]">Subscribe our
-                        newsletter to receive future updates</h2>
-                    <form className="relative mx-auto max-w-[480px]"><input type="email" id="email"
-                                                                        placeholder="Enter your email"
-                                                                        className="mb-5 w-full rounded-full border border-white border-opacity-[13%] bg-white bg-opacity-[15%] px-8 py-4 text-center text-white placeholder-white placeholder-opacity-70 outline-none transition focus:border-opacity-100 focus-visible:shadow-none sm:mb-0 sm:text-left"
-                                                                        name="email" value=""/><button
-                        className="right-2 top-2 w-full rounded-full bg-white px-5 py-4 text-base font-semibold text-primary sm:absolute sm:w-auto sm:py-[10px]">Subscribe
-                        Now</button></form>
-                </div>
-                <div className="absolute bottom-0 left-0 right-0 -z-10 w-full"><svg width="818" height="286"
-                                                                                viewBox="0 0 818 286" fill="none" xmlns="http://www.w3.org/2000/svg" className="mx-auto">
-                    <circle cx="409" cy="409" r="408.5" stroke="url(#paint0_linear_0:1)"></circle>
-                    <circle cx="409" cy="409" r="349.5" stroke="url(#paint1_linear_0:1)"></circle>
-                    <defs>
-                        <linearGradient id="paint0_linear_0:1" x1="-34.5" y1="291.5" x2="851" y2="291.5"
-                                        gradientUnits="userSpaceOnUse">
-                            <stop stopColor="white" stopOpacity="0.35"></stop>
-                            <stop offset="0.218415" stopColor="white" stopOpacity="0"></stop>
-                            <stop offset="0.728079" stopColor="white" stopOpacity="0"></stop>
-                            <stop offset="1" stopColor="white" stopOpacity="0.35"></stop>
-                        </linearGradient>
-                        <linearGradient id="paint1_linear_0:1" x1="29.4768" y1="308.45" x2="787.24" y2="308.45"
-                                        gradientUnits="userSpaceOnUse">
-                            <stop stopColor="white" stopOpacity="0.35"></stop>
-                            <stop offset="0.218415" stopColor="white" stopOpacity="0"></stop>
-                            <stop offset="0.777261" stopColor="white" stopOpacity="0"></stop>
-                            <stop offset="1" stopColor="white" stopOpacity="0.35"></stop>
-                        </linearGradient>
-                    </defs>
-                </svg></div>
-            </div>
-        </div>
-    </section>
-    <section className="bg-white pt-20 lg:pt-[120px]">
-        <div className="container">
-            <div className="-mx-4 flex flex-wrap">
-                <div className="w-full px-4">
-                    <div className="mx-auto mb-[60px] max-w-[510px] text-center"><span
-                        className="mb-2 block text-lg font-semibold text-primary">TEAM</span>
-                        <h2 className="mb-4 text-3xl font-bold text-dark sm:text-4xl md:text-[40px]">Our Awesome Team</h2>
-                        <p className="text-base text-body-color">There are many variations of passages of Lorem Ipsum
-                            available but the majority have suffered alteration in some form.</p>
-                    </div>
-                </div>
-            </div>
-            <div className="-mx-4 flex flex-wrap justify-center">
-                <div className="w-full px-4 md:w-1/2 xl:w-1/4">
-                    <div className="mx-auto mb-10 w-full max-w-[370px]">
-                        <div className="relative aspect-[149/182] overflow-hidden rounded-lg"><img alt="Coriss Ambady"
-                                                                                               loading="lazy" decoding="async" data-nimg="fill"
-                                                                                               className="w-full object-cover object-center"
-                                                                                         //      style="position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent"
-                                                                                               sizes="100vw"
-                                                                                               srcSet="image_86 640w, image_88 750w, image_89 828w, image_90 1080w, image_91 1200w, image_32 1920w, image_92 2048w, image_8 3840w"
-                                                                                               src="image_8"/>
-                            <div className="absolute bottom-5 left-0 w-full text-center">
-                                <div className="relative mx-5 overflow-hidden rounded-lg bg-white px-3 py-5">
-                                    <h3 className="text-base font-semibold text-dark">Coriss Ambady</h3>
-                                    <p className="text-sm text-body-color">Web Developer</p>
-                                    <div><span className="absolute bottom-0 left-0"><svg width="61" height="30"
-                                                                                     viewBox="0 0 61 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <circle cx="16" cy="45" r="45" fill="#13C296" fillOpacity="0.11">
-                                                </circle>
-                                            </svg></span><span className="absolute right-0 top-0"><svg width="20"
-                                                                                                   height="25" viewBox="0 0 20 25" fill="none"
-                                                                                                   xmlns="http://www.w3.org/2000/svg">
-                                                <circle cx="0.706257" cy="24.3533" r="0.646687"
-                                                        transform="rotate(-90 0.706257 24.3533)" fill="#3056D3"></circle>
-                                                <circle cx="6.39669" cy="24.3533" r="0.646687"
-                                                        transform="rotate(-90 6.39669 24.3533)" fill="#3056D3"></circle>
-                                                <circle cx="12.0881" cy="24.3533" r="0.646687"
-                                                        transform="rotate(-90 12.0881 24.3533)" fill="#3056D3"></circle>
-                                                <circle cx="17.7785" cy="24.3533" r="0.646687"
-                                                        transform="rotate(-90 17.7785 24.3533)" fill="#3056D3"></circle>
-                                                <circle cx="0.706257" cy="18.6624" r="0.646687"
-                                                        transform="rotate(-90 0.706257 18.6624)" fill="#3056D3"></circle>
-                                                <circle cx="6.39669" cy="18.6624" r="0.646687"
-                                                        transform="rotate(-90 6.39669 18.6624)" fill="#3056D3"></circle>
-                                                <circle cx="12.0881" cy="18.6624" r="0.646687"
-                                                        transform="rotate(-90 12.0881 18.6624)" fill="#3056D3"></circle>
-                                                <circle cx="17.7785" cy="18.6624" r="0.646687"
-                                                        transform="rotate(-90 17.7785 18.6624)" fill="#3056D3"></circle>
-                                                <circle cx="0.706257" cy="12.9717" r="0.646687"
-                                                        transform="rotate(-90 0.706257 12.9717)" fill="#3056D3"></circle>
-                                                <circle cx="6.39669" cy="12.9717" r="0.646687"
-                                                        transform="rotate(-90 6.39669 12.9717)" fill="#3056D3"></circle>
-                                                <circle cx="12.0881" cy="12.9717" r="0.646687"
-                                                        transform="rotate(-90 12.0881 12.9717)" fill="#3056D3"></circle>
-                                                <circle cx="17.7785" cy="12.9717" r="0.646687"
-                                                        transform="rotate(-90 17.7785 12.9717)" fill="#3056D3"></circle>
-                                                <circle cx="0.706257" cy="7.28077" r="0.646687"
-                                                        transform="rotate(-90 0.706257 7.28077)" fill="#3056D3"></circle>
-                                                <circle cx="6.39669" cy="7.28077" r="0.646687"
-                                                        transform="rotate(-90 6.39669 7.28077)" fill="#3056D3"></circle>
-                                                <circle cx="12.0881" cy="7.28077" r="0.646687"
-                                                        transform="rotate(-90 12.0881 7.28077)" fill="#3056D3"></circle>
-                                                <circle cx="17.7785" cy="7.28077" r="0.646687"
-                                                        transform="rotate(-90 17.7785 7.28077)" fill="#3056D3"></circle>
-                                                <circle cx="0.706257" cy="1.58989" r="0.646687"
-                                                        transform="rotate(-90 0.706257 1.58989)" fill="#3056D3"></circle>
-                                                <circle cx="6.39669" cy="1.58989" r="0.646687"
-                                                        transform="rotate(-90 6.39669 1.58989)" fill="#3056D3"></circle>
-                                                <circle cx="12.0881" cy="1.58989" r="0.646687"
-                                                        transform="rotate(-90 12.0881 1.58989)" fill="#3056D3"></circle>
-                                                <circle cx="17.7785" cy="1.58989" r="0.646687"
-                                                        transform="rotate(-90 17.7785 1.58989)" fill="#3056D3"></circle>
-                                            </svg></span></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div className="w-full px-4 md:w-1/2 xl:w-1/4">
-                    <div className="mx-auto mb-10 w-full max-w-[370px]">
-                        <div className="relative aspect-[149/182] overflow-hidden rounded-lg"><img alt="Glorius Cristian"
-                                                                                               loading="lazy" decoding="async" data-nimg="fill"
-                                                                                               className="w-full object-cover object-center"
-                                                                                             //  style="position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent"
-                                                                                               sizes="100vw"
-                                                                                               srcSet="image_94 640w, image_33 750w, image_34 828w, image_93 1080w, image_96 1200w, image_97 1920w, image_98 2048w, image_9 3840w"
-                                                                                               src="image_9"/>
-                            <div className="absolute bottom-5 left-0 w-full text-center">
-                                <div className="relative mx-5 overflow-hidden rounded-lg bg-white px-3 py-5">
-                                    <h3 className="text-base font-semibold text-dark">Glorius Cristian</h3>
-                                    <p className="text-sm text-body-color">App Developer</p>
-                                    <div><span className="absolute bottom-0 left-0"><svg width="61" height="30"
-                                                                                     viewBox="0 0 61 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <circle cx="16" cy="45" r="45" fill="#13C296" fillOpacity="0.11">
-                                                </circle>
-                                            </svg></span><span className="absolute right-0 top-0"><svg width="20"
-                                                                                                   height="25" viewBox="0 0 20 25" fill="none"
-                                                                                                   xmlns="http://www.w3.org/2000/svg">
-                                                <circle cx="0.706257" cy="24.3533" r="0.646687"
-                                                        transform="rotate(-90 0.706257 24.3533)" fill="#3056D3"></circle>
-                                                <circle cx="6.39669" cy="24.3533" r="0.646687"
-                                                        transform="rotate(-90 6.39669 24.3533)" fill="#3056D3"></circle>
-                                                <circle cx="12.0881" cy="24.3533" r="0.646687"
-                                                        transform="rotate(-90 12.0881 24.3533)" fill="#3056D3"></circle>
-                                                <circle cx="17.7785" cy="24.3533" r="0.646687"
-                                                        transform="rotate(-90 17.7785 24.3533)" fill="#3056D3"></circle>
-                                                <circle cx="0.706257" cy="18.6624" r="0.646687"
-                                                        transform="rotate(-90 0.706257 18.6624)" fill="#3056D3"></circle>
-                                                <circle cx="6.39669" cy="18.6624" r="0.646687"
-                                                        transform="rotate(-90 6.39669 18.6624)" fill="#3056D3"></circle>
-                                                <circle cx="12.0881" cy="18.6624" r="0.646687"
-                                                        transform="rotate(-90 12.0881 18.6624)" fill="#3056D3"></circle>
-                                                <circle cx="17.7785" cy="18.6624" r="0.646687"
-                                                        transform="rotate(-90 17.7785 18.6624)" fill="#3056D3"></circle>
-                                                <circle cx="0.706257" cy="12.9717" r="0.646687"
-                                                        transform="rotate(-90 0.706257 12.9717)" fill="#3056D3"></circle>
-                                                <circle cx="6.39669" cy="12.9717" r="0.646687"
-                                                        transform="rotate(-90 6.39669 12.9717)" fill="#3056D3"></circle>
-                                                <circle cx="12.0881" cy="12.9717" r="0.646687"
-                                                        transform="rotate(-90 12.0881 12.9717)" fill="#3056D3"></circle>
-                                                <circle cx="17.7785" cy="12.9717" r="0.646687"
-                                                        transform="rotate(-90 17.7785 12.9717)" fill="#3056D3"></circle>
-                                                <circle cx="0.706257" cy="7.28077" r="0.646687"
-                                                        transform="rotate(-90 0.706257 7.28077)" fill="#3056D3"></circle>
-                                                <circle cx="6.39669" cy="7.28077" r="0.646687"
-                                                        transform="rotate(-90 6.39669 7.28077)" fill="#3056D3"></circle>
-                                                <circle cx="12.0881" cy="7.28077" r="0.646687"
-                                                        transform="rotate(-90 12.0881 7.28077)" fill="#3056D3"></circle>
-                                                <circle cx="17.7785" cy="7.28077" r="0.646687"
-                                                        transform="rotate(-90 17.7785 7.28077)" fill="#3056D3"></circle>
-                                                <circle cx="0.706257" cy="1.58989" r="0.646687"
-                                                        transform="rotate(-90 0.706257 1.58989)" fill="#3056D3"></circle>
-                                                <circle cx="6.39669" cy="1.58989" r="0.646687"
-                                                        transform="rotate(-90 6.39669 1.58989)" fill="#3056D3"></circle>
-                                                <circle cx="12.0881" cy="1.58989" r="0.646687"
-                                                        transform="rotate(-90 12.0881 1.58989)" fill="#3056D3"></circle>
-                                                <circle cx="17.7785" cy="1.58989" r="0.646687"
-                                                        transform="rotate(-90 17.7785 1.58989)" fill="#3056D3"></circle>
-                                            </svg></span></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div className="w-full px-4 md:w-1/2 xl:w-1/4">
-                    <div className="mx-auto mb-10 w-full max-w-[370px]">
-                        <div className="relative aspect-[149/182] overflow-hidden rounded-lg"><img alt="Jackie Sanders"
-                                                                                               loading="lazy" decoding="async" data-nimg="fill"
-                                                                                               className="w-full object-cover object-center"
-                                                                                         //      style="position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent"
-                                                                                               sizes="100vw"
-                                                                                               srcSet="image_95 640w, image_100 750w, image_99 828w, image_104 1080w, image_101 1200w, image_102 1920w, image_37 2048w, image_10 3840w"
-                                                                                               src="image_10"/>
-                            <div className="absolute bottom-5 left-0 w-full text-center">
-                                <div className="relative mx-5 overflow-hidden rounded-lg bg-white px-3 py-5">
-                                    <h3 className="text-base font-semibold text-dark">Jackie Sanders</h3>
-                                    <p className="text-sm text-body-color">UI/UX Designer</p>
-                                    <div><span className="absolute bottom-0 left-0"><svg width="61" height="30"
-                                                                                     viewBox="0 0 61 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <circle cx="16" cy="45" r="45" fill="#13C296" fillOpacity="0.11">
-                                                </circle>
-                                            </svg></span><span className="absolute right-0 top-0"><svg width="20"
-                                                                                                   height="25" viewBox="0 0 20 25" fill="none"
-                                                                                                   xmlns="http://www.w3.org/2000/svg">
-                                                <circle cx="0.706257" cy="24.3533" r="0.646687"
-                                                        transform="rotate(-90 0.706257 24.3533)" fill="#3056D3"></circle>
-                                                <circle cx="6.39669" cy="24.3533" r="0.646687"
-                                                        transform="rotate(-90 6.39669 24.3533)" fill="#3056D3"></circle>
-                                                <circle cx="12.0881" cy="24.3533" r="0.646687"
-                                                        transform="rotate(-90 12.0881 24.3533)" fill="#3056D3"></circle>
-                                                <circle cx="17.7785" cy="24.3533" r="0.646687"
-                                                        transform="rotate(-90 17.7785 24.3533)" fill="#3056D3"></circle>
-                                                <circle cx="0.706257" cy="18.6624" r="0.646687"
-                                                        transform="rotate(-90 0.706257 18.6624)" fill="#3056D3"></circle>
-                                                <circle cx="6.39669" cy="18.6624" r="0.646687"
-                                                        transform="rotate(-90 6.39669 18.6624)" fill="#3056D3"></circle>
-                                                <circle cx="12.0881" cy="18.6624" r="0.646687"
-                                                        transform="rotate(-90 12.0881 18.6624)" fill="#3056D3"></circle>
-                                                <circle cx="17.7785" cy="18.6624" r="0.646687"
-                                                        transform="rotate(-90 17.7785 18.6624)" fill="#3056D3"></circle>
-                                                <circle cx="0.706257" cy="12.9717" r="0.646687"
-                                                        transform="rotate(-90 0.706257 12.9717)" fill="#3056D3"></circle>
-                                                <circle cx="6.39669" cy="12.9717" r="0.646687"
-                                                        transform="rotate(-90 6.39669 12.9717)" fill="#3056D3"></circle>
-                                                <circle cx="12.0881" cy="12.9717" r="0.646687"
-                                                        transform="rotate(-90 12.0881 12.9717)" fill="#3056D3"></circle>
-                                                <circle cx="17.7785" cy="12.9717" r="0.646687"
-                                                        transform="rotate(-90 17.7785 12.9717)" fill="#3056D3"></circle>
-                                                <circle cx="0.706257" cy="7.28077" r="0.646687"
-                                                        transform="rotate(-90 0.706257 7.28077)" fill="#3056D3"></circle>
-                                                <circle cx="6.39669" cy="7.28077" r="0.646687"
-                                                        transform="rotate(-90 6.39669 7.28077)" fill="#3056D3"></circle>
-                                                <circle cx="12.0881" cy="7.28077" r="0.646687"
-                                                        transform="rotate(-90 12.0881 7.28077)" fill="#3056D3"></circle>
-                                                <circle cx="17.7785" cy="7.28077" r="0.646687"
-                                                        transform="rotate(-90 17.7785 7.28077)" fill="#3056D3"></circle>
-                                                <circle cx="0.706257" cy="1.58989" r="0.646687"
-                                                        transform="rotate(-90 0.706257 1.58989)" fill="#3056D3"></circle>
-                                                <circle cx="6.39669" cy="1.58989" r="0.646687"
-                                                        transform="rotate(-90 6.39669 1.58989)" fill="#3056D3"></circle>
-                                                <circle cx="12.0881" cy="1.58989" r="0.646687"
-                                                        transform="rotate(-90 12.0881 1.58989)" fill="#3056D3"></circle>
-                                                <circle cx="17.7785" cy="1.58989" r="0.646687"
-                                                        transform="rotate(-90 17.7785 1.58989)" fill="#3056D3"></circle>
-                                            </svg></span></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div className="w-full px-4 md:w-1/2 xl:w-1/4">
-                    <div className="mx-auto mb-10 w-full max-w-[370px]">
-                        <div className="relative aspect-[149/182] overflow-hidden rounded-lg"><img alt="Nikolas Brooten"
-                                                                                               loading="lazy" decoding="async" data-nimg="fill"
-                                                                                               className="w-full object-cover object-center"
-                                                                                           //    style="position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent"
-                                                                                               sizes="100vw"
-                                                                                               srcSet="image_105 640w, image_103 750w, image_35 828w, image_106 1080w, image_39 1200w, image_36 1920w, image_38 2048w, image_12 3840w"
-                                                                                               src="image_12"/>
-                            <div className="absolute bottom-5 left-0 w-full text-center">
-                                <div className="relative mx-5 overflow-hidden rounded-lg bg-white px-3 py-5">
-                                    <h3 className="text-base font-semibold text-dark">Nikolas Brooten</h3>
-                                    <p className="text-sm text-body-color">Sales Manager</p>
-                                    <div><span className="absolute bottom-0 left-0"><svg width="61" height="30"
-                                                                                     viewBox="0 0 61 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <circle cx="16" cy="45" r="45" fill="#13C296" fillOpacity="0.11">
-                                                </circle>
-                                            </svg></span><span className="absolute right-0 top-0"><svg width="20"
-                                                                                                   height="25" viewBox="0 0 20 25" fill="none"
-                                                                                                   xmlns="http://www.w3.org/2000/svg">
-                                                <circle cx="0.706257" cy="24.3533" r="0.646687"
-                                                        transform="rotate(-90 0.706257 24.3533)" fill="#3056D3"></circle>
-                                                <circle cx="6.39669" cy="24.3533" r="0.646687"
-                                                        transform="rotate(-90 6.39669 24.3533)" fill="#3056D3"></circle>
-                                                <circle cx="12.0881" cy="24.3533" r="0.646687"
-                                                        transform="rotate(-90 12.0881 24.3533)" fill="#3056D3"></circle>
-                                                <circle cx="17.7785" cy="24.3533" r="0.646687"
-                                                        transform="rotate(-90 17.7785 24.3533)" fill="#3056D3"></circle>
-                                                <circle cx="0.706257" cy="18.6624" r="0.646687"
-                                                        transform="rotate(-90 0.706257 18.6624)" fill="#3056D3"></circle>
-                                                <circle cx="6.39669" cy="18.6624" r="0.646687"
-                                                        transform="rotate(-90 6.39669 18.6624)" fill="#3056D3"></circle>
-                                                <circle cx="12.0881" cy="18.6624" r="0.646687"
-                                                        transform="rotate(-90 12.0881 18.6624)" fill="#3056D3"></circle>
-                                                <circle cx="17.7785" cy="18.6624" r="0.646687"
-                                                        transform="rotate(-90 17.7785 18.6624)" fill="#3056D3"></circle>
-                                                <circle cx="0.706257" cy="12.9717" r="0.646687"
-                                                        transform="rotate(-90 0.706257 12.9717)" fill="#3056D3"></circle>
-                                                <circle cx="6.39669" cy="12.9717" r="0.646687"
-                                                        transform="rotate(-90 6.39669 12.9717)" fill="#3056D3"></circle>
-                                                <circle cx="12.0881" cy="12.9717" r="0.646687"
-                                                        transform="rotate(-90 12.0881 12.9717)" fill="#3056D3"></circle>
-                                                <circle cx="17.7785" cy="12.9717" r="0.646687"
-                                                        transform="rotate(-90 17.7785 12.9717)" fill="#3056D3"></circle>
-                                                <circle cx="0.706257" cy="7.28077" r="0.646687"
-                                                        transform="rotate(-90 0.706257 7.28077)" fill="#3056D3"></circle>
-                                                <circle cx="6.39669" cy="7.28077" r="0.646687"
-                                                        transform="rotate(-90 6.39669 7.28077)" fill="#3056D3"></circle>
-                                                <circle cx="12.0881" cy="7.28077" r="0.646687"
-                                                        transform="rotate(-90 12.0881 7.28077)" fill="#3056D3"></circle>
-                                                <circle cx="17.7785" cy="7.28077" r="0.646687"
-                                                        transform="rotate(-90 17.7785 7.28077)" fill="#3056D3"></circle>
-                                                <circle cx="0.706257" cy="1.58989" r="0.646687"
-                                                        transform="rotate(-90 0.706257 1.58989)" fill="#3056D3"></circle>
-                                                <circle cx="6.39669" cy="1.58989" r="0.646687"
-                                                        transform="rotate(-90 6.39669 1.58989)" fill="#3056D3"></circle>
-                                                <circle cx="12.0881" cy="1.58989" r="0.646687"
-                                                        transform="rotate(-90 12.0881 1.58989)" fill="#3056D3"></circle>
-                                                <circle cx="17.7785" cy="1.58989" r="0.646687"
-                                                        transform="rotate(-90 17.7785 1.58989)" fill="#3056D3"></circle>
-                                            </svg></span></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+
+
+
     {/*<section id="pricing" className="relative z-20 overflow-hidden bg-white pb-8 pt-20 lg:pt-[120px]">*/}
     {/*    <div className="container">*/}
     {/*        <div className="-mx-4 flex flex-wrap">*/}
@@ -836,7 +329,7 @@ export default function Allothers() {
                 <div className="w-full px-4 lg:w-1/2">
                     <div
                         className="relative mb-10 overflow-hidden rounded-xl bg-white p-10 px-7 shadow-testimonial sm:px-10">
-                        <div className="mb-5"><img alt="lineicons" loading="lazy" width="154" height="25" decoding="async"
+                        <div className="mb-5"><Image alt="lineicons" loading="lazy" width="154" height="25" decoding="async"
                                                data-nimg="1"
                                                      //
                                                      src="images/lineicons.5463f950.svg"/></div>
@@ -844,7 +337,7 @@ export default function Allothers() {
                             consectetur adipiscing elit. Nullam laoreet tempus augue, ac venenatis lectus tempus ut. Sed
                             sodales erat a libero.</p>
                         <div className="flex items-center">
-                            <div className="mr-3 h-[60px] w-full max-w-[60px] overflow-hidden rounded-full"><img
+                            <div className="mr-3 h-[60px] w-full max-w-[60px] overflow-hidden rounded-full"><Image
                                 alt="Musharof Chy" loading="lazy" width="60" height="60" decoding="async"
                                 data-nimg="1" 
                                //  
@@ -871,7 +364,7 @@ export default function Allothers() {
                 <div className="w-full px-4 lg:w-1/2">
                     <div
                         className="relative mb-10 overflow-hidden rounded-xl bg-white p-10 px-7 shadow-testimonial sm:px-10">
-                        <div className="mb-5"><img alt="tailgrids" loading="lazy" width="101" height="25" decoding="async"
+                        <div className="mb-5"><Image alt="tailgrids" loading="lazy" width="101" height="25" decoding="async"
                                                data-nimg="1" 
                                                      //
                                                      src="images/tailgrids.2c7d115e.svg"/></div>
@@ -879,7 +372,7 @@ export default function Allothers() {
                             consectetur adipiscing elit. Nullam laoreet tempus augue, ac venenatis lectus tempus ut. Sed
                             sodales erat a libero.</p>
                         <div className="flex items-center">
-                            <div className="mr-3 h-[60px] w-full max-w-[60px] overflow-hidden rounded-full"><img
+                            <div className="mr-3 h-[60px] w-full max-w-[60px] overflow-hidden rounded-full"><Image
                                 alt="Devid Sailio" loading="lazy" width="60" height="60" decoding="async"
                                 data-nimg="1" //
                                  srcSet="image_42 1x, image_14 2x"
@@ -905,13 +398,13 @@ export default function Allothers() {
                 <div className="w-full px-4 lg:w-1/2">
                     <div
                         className="relative mb-10 overflow-hidden rounded-xl bg-white p-10 px-7 shadow-testimonial sm:px-10">
-                        <div className="mb-5"><img alt="formbold" loading="lazy" width="137" height="25" decoding="async"
+                        <div className="mb-5"><Image alt="formbold" loading="lazy" width="137" height="25" decoding="async"
                                                data-nimg="1"  src="images/formbold.69a2ffb6.svg"/></div>
                         <p className="mb-8 text-base font-medium text-body-color sm:text-lg">Lorem ipsum dolor sit amet,
                             consectetur adipiscing elit. Nullam laoreet tempus augue, ac venenatis lectus tempus ut. Sed
                             sodales erat a libero.</p>
                         <div className="flex items-center">
-                            <div className="mr-3 h-[60px] w-full max-w-[60px] overflow-hidden rounded-full"><img
+                            <div className="mr-3 h-[60px] w-full max-w-[60px] overflow-hidden rounded-full"><Image
                                 alt="Jenifer Lofeez" loading="lazy" width="60" height="60" decoding="async"
                                 data-nimg="1"  srcSet="image_109 1x, image_13 2x"
                                 src="image_13"/></div>
@@ -936,13 +429,13 @@ export default function Allothers() {
                 <div className="w-full px-4 lg:w-1/2">
                     <div
                         className="relative mb-10 overflow-hidden rounded-xl bg-white p-10 px-7 shadow-testimonial sm:px-10">
-                        <div className="mb-5"><img alt="uideck" loading="lazy" width="107" height="25" decoding="async"
+                        <div className="mb-5"><Image alt="uideck" loading="lazy" width="107" height="25" decoding="async"
                                                data-nimg="1"  src="images/uideck.7c3bffe9.svg"/></div>
                         <p className="mb-8 text-base font-medium text-body-color sm:text-lg">Lorem ipsum dolor sit amet,
                             consectetur adipiscing elit. Nullam laoreet tempus augue, ac venenatis lectus tempus ut. Sed
                             sodales erat a libero.</p>
                         <div className="flex items-center">
-                            <div className="mr-3 h-[60px] w-full max-w-[60px] overflow-hidden rounded-full"><img
+                            <div className="mr-3 h-[60px] w-full max-w-[60px] overflow-hidden rounded-full"><Image
                                 alt="Justin Herry" loading="lazy" width="60" height="60" decoding="async"
                                 data-nimg="1"  srcSet="image_108 1x, image_15 2x"
                                 src="image_15"/></div>
@@ -983,7 +476,7 @@ export default function Allothers() {
                 <div className="mb-10 w-full px-4 lg:w-1/2 xl:w-1/3">
                     <div className="flex h-full flex-col overflow-hidden rounded-xl bg-white shadow-blog"><a
                         className="relative block aspect-video"
-                        href="/blog/exploring-the-mern-stack-powering-modern-web-development"><img
+                        href="/blog/exploring-the-mern-stack-powering-modern-web-development"><Image
                         alt="Exploring MERN Stack: Powering Modern Web Development" loading="lazy"
                         decoding="async" data-nimg="fill" className="w-full duration-300 group-hover:scale-110"
                         //style="position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent"
@@ -1007,7 +500,7 @@ export default function Allothers() {
                 </div>
                 <div className="mb-10 w-full px-4 lg:w-1/2 xl:w-1/3">
                     <div className="flex h-full flex-col overflow-hidden rounded-xl bg-white shadow-blog"><a
-                        className="relative block aspect-video" href="/blog/best-ui-components-for-modern-websites"><img
+                        className="relative block aspect-video" href="/blog/best-ui-components-for-modern-websites"><Image
                         alt="Test webhook" loading="lazy" decoding="async" data-nimg="fill"
                         className="w-full duration-300 group-hover:scale-110"
                       //  style="position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent"
@@ -1031,7 +524,7 @@ export default function Allothers() {
                 <div className="mb-10 w-full px-4 lg:w-1/2 xl:w-1/3">
                     <div className="flex h-full flex-col overflow-hidden rounded-xl bg-white shadow-blog"><a
                         className="relative block aspect-video"
-                        href="/blog/the-power-of-uiux-elevating-digital-experiences"><img
+                        href="/blog/the-power-of-uiux-elevating-digital-experiences"><Image
                         alt="The Power of UI/UX: Elevating Digital Experiences" loading="lazy" decoding="async"
                         data-nimg="fill" className="w-full duration-300 group-hover:scale-110"
                         ///style="position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent"
@@ -1102,173 +595,7 @@ export default function Allothers() {
             </div>
         </div>
     </section>
-    <footer className="relative z-10 bg-black pb-12 pt-[100px]">
-        <div className="container">
-            <div className="-mx-4 flex flex-wrap">
-                <div className="w-full px-4 md:w-1/2 lg:w-4/12">
-                    <div className="mb-10">
-                        <h2 className="mb-5 text-4xl font-bold leading-tight text-white md:text-[44px]">Let's Talk!</h2>
-                        <h3 className="mb-2 text-2xl font-bold text-white opacity-70">Contact Info</h3>
-                        <p className="mb-1 text-base font-medium text-body-color">closerpage@email.com</p>
-                        <p className="mb-1 text-base font-medium text-body-color">12 Hilton St, Manchester M1 1JF</p>
-                        <p className="mb-1 text-base font-medium text-body-color">+44 012 34 5678</p>
-                    </div>
-                </div>
-                <div className="w-full px-4 md:w-1/2 lg:w-3/12">
-                    <div className="mb-10">
-                        <h3 className="mb-9 text-xl font-semibold text-white">What I Do?</h3>
-                        <ul className="space-y-3">
-                            <li><a target="_self" className="inline-block text-base text-body-color hover:text-primary"
-                                   href="#">The Studio</a></li>
-                            <li><a target="_self" className="inline-block text-base text-body-color hover:text-primary"
-                                   href="#">Sponsoring</a></li>
-                            <li><a target="_self" className="inline-block text-base text-body-color hover:text-primary"
-                                   href="#">Newsletter</a></li>
-                            <li><a target="_self" className="inline-block text-base text-body-color hover:text-primary"
-                                   href="/contact">Contact Us</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div className="w-full px-4 md:w-1/2 lg:w-2/12">
-                    <div className="mb-10">
-                        <h3 className="mb-9 text-xl font-semibold text-white">News</h3>
-                        <ul className="space-y-3">
-                            <li><a target="_self" className="inline-block text-base text-body-color hover:text-primary"
-                                   href="#">Hot Stuff</a></li>
-                            <li><a target="_self" className="inline-block text-base text-body-color hover:text-primary"
-                                   href="#">Perfect Place</a></li>
-                            <li><a target="_self" className="inline-block text-base text-body-color hover:text-primary"
-                                   href="#">Vintage</a></li>
-                            <li><a target="_self" className="inline-block text-base text-body-color hover:text-primary"
-                                   href="#">Products</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div className="w-full px-4 md:w-1/2 lg:w-3/12">
-                    <div className="mb-10">
-                        <h3 className="mb-9 text-xl font-semibold text-white">Quick Links</h3>
-                        <ul className="space-y-3">
-                            <li><a target="_self" className="inline-block text-base text-body-color hover:text-primary"
-                                   href="#">Style</a></li>
-                            <li><a target="_self" className="inline-block text-base text-body-color hover:text-primary"
-                                   href="#">Health</a></li>
-                            <li><a target="_self" className="inline-block text-base text-body-color hover:text-primary"
-                                   href="#">Relationship</a></li>
-                            <li><a target="_self" className="inline-block text-base text-body-color hover:text-primary"
-                                   href="#">Legal & Privacy</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div className="mt-10 border-t border-white border-opacity-10 pt-12">
-                <div className="mb-5 flex items-center justify-center"><a href="" aria-label="social-link" target="_blank"
-                                                                      rel="nofollow noreferrer noopener"
-                                                                      className="mx-2 flex h-8 w-8 items-center justify-center rounded-full bg-body-color text-dark duration-200 hover:bg-primary hover:text-white"><svg
-                    width="20" height="20" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path
-                        d="M12.1 10.494V7.42717C12.1 6.23996 13.085 5.27753 14.3 5.27753H16.5V2.05308L13.5135 1.84464C10.9664 1.66688 8.8 3.63794 8.8 6.13299V10.494H5.5V13.7184H8.8V20.1668H12.1V13.7184H15.4L16.5 10.494H12.1Z"
-                        fill="currentColor"></path>
-                </svg></a><a href="" aria-label="social-link" target="_blank" rel="nofollow noreferrer noopener"
-                             className="mx-2 flex h-8 w-8 items-center justify-center rounded-full bg-body-color text-dark duration-200 hover:bg-primary hover:text-white"><svg
-                    width="20" height="20" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path fillRule="evenodd" clipRule="evenodd"
-                          d="M13.9831 19.25L9.82094 13.3176L4.61058 19.25H2.40625L8.843 11.9233L2.40625 2.75H8.06572L11.9884 8.34127L16.9034 2.75H19.1077L12.9697 9.73737L19.6425 19.25H13.9831ZM16.4378 17.5775H14.9538L5.56249 4.42252H7.04674L10.808 9.6899L11.4584 10.6039L16.4378 17.5775Z"
-                          fill="currentColor"></path>
-                </svg></a><a href="" aria-label="social-link" target="_blank" rel="nofollow noreferrer noopener"
-                             className="mx-2 flex h-8 w-8 items-center justify-center rounded-full bg-body-color text-dark duration-200 hover:bg-primary hover:text-white"><svg
-                    width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <g clipPath="url(#clip0_1073_724)">
-                        <path
-                            d="M6.94043 5.00002C6.94017 5.53046 6.7292 6.03906 6.35394 6.41394C5.97868 6.78883 5.46986 6.99929 4.93943 6.99902C4.409 6.99876 3.90039 6.78779 3.52551 6.41253C3.15062 6.03727 2.94016 5.52846 2.94043 4.99802C2.9407 4.46759 3.15166 3.95899 3.52692 3.5841C3.90218 3.20922 4.411 2.99876 4.94143 2.99902C5.47186 2.99929 5.98047 3.21026 6.35535 3.58552C6.73024 3.96078 6.9407 4.46959 6.94043 5.00002ZM7.00043 8.48002H3.00043V21H7.00043V8.48002ZM13.3204 8.48002H9.34043V21H13.2804V14.43C13.2804 10.77 18.0504 10.43 18.0504 14.43V21H22.0004V13.07C22.0004 6.90002 14.9404 7.13002 13.2804 10.16L13.3204 8.48002Z"
-                            fill="currentColor"></path>
-                    </g>
-                    <defs>
-                        <clipPath id="clip0_1073_724">
-                            <rect width="24" height="24" fill="white"></rect>
-                        </clipPath>
-                    </defs>
-                </svg></a></div>
-                <p className="text-center text-base font-medium text-body-color">Next.js Site Template for Agency and
-                    Portfolio - © 2024</p>
-            </div>
-        </div>
-        <div className="-z-1 absolute bottom-0 left-0" aria-label="shape"><span className="hidden">shape</span><svg width="143"
-                                                                                                            height="138" viewBox="0 0 143 138" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <circle cx="25" cy="118" r="101" stroke="url(#paint0_linear_52:83)" stroke-width="34"></circle>
-            <defs>
-                <linearGradient id="paint0_linear_52:83" x1="-12.7969" y1="-37.3359" x2="99.2109" y2="173.773"
-                                gradientUnits="userSpaceOnUse">
-                    <stop stopColor="#4A6CF7"></stop>
-                    <stop offset="1" stopColor="#4A6CF7" stopOpacity="0"></stop>
-                </linearGradient>
-            </defs>
-        </svg></div>
-        <div className="-z-1 absolute right-3 top-3" aria-label="shape"><span className="hidden">shape</span><svg width="61"
-                                                                                                          height="77" viewBox="0 0 61 77" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <g opacity="0.5">
-                <circle cx="45.0001" cy="1.66667" r="1.66667" transform="rotate(90 45.0001 1.66667)" fill="white">
-                </circle>
-                <circle cx="16.0001" cy="1.66667" r="1.66667" transform="rotate(90 16.0001 1.66667)" fill="white">
-                </circle>
-                <circle cx="59.0001" cy="1.66667" r="1.66667" transform="rotate(90 59.0001 1.66667)" fill="white">
-                </circle>
-                <circle cx="30.6668" cy="1.66667" r="1.66667" transform="rotate(90 30.6668 1.66667)" fill="white">
-                </circle>
-                <circle cx="1.66683" cy="1.66667" r="1.66667" transform="rotate(90 1.66683 1.66667)" fill="white">
-                </circle>
-                <circle cx="45.0001" cy="16.3332" r="1.66667" transform="rotate(90 45.0001 16.3332)" fill="white">
-                </circle>
-                <circle cx="16.0001" cy="16.3332" r="1.66667" transform="rotate(90 16.0001 16.3332)" fill="white">
-                </circle>
-                <circle cx="59.0001" cy="16.3332" r="1.66667" transform="rotate(90 59.0001 16.3332)" fill="white">
-                </circle>
-                <circle cx="30.6668" cy="16.3332" r="1.66667" transform="rotate(90 30.6668 16.3332)" fill="white">
-                </circle>
-                <circle cx="1.66683" cy="16.3332" r="1.66667" transform="rotate(90 1.66683 16.3332)" fill="white">
-                </circle>
-                <circle cx="45.0001" cy="31.0002" r="1.66667" transform="rotate(90 45.0001 31.0002)" fill="white">
-                </circle>
-                <circle cx="45.0001" cy="74.6667" r="1.66667" transform="rotate(90 45.0001 74.6667)" fill="white">
-                </circle>
-                <circle cx="16.0001" cy="31.0002" r="1.66667" transform="rotate(90 16.0001 31.0002)" fill="white">
-                </circle>
-                <circle cx="16.0001" cy="74.6667" r="1.66667" transform="rotate(90 16.0001 74.6667)" fill="white">
-                </circle>
-                <circle cx="59.0001" cy="31.0002" r="1.66667" transform="rotate(90 59.0001 31.0002)" fill="white">
-                </circle>
-                <circle cx="59.0001" cy="74.6667" r="1.66667" transform="rotate(90 59.0001 74.6667)" fill="white">
-                </circle>
-                <circle cx="30.6668" cy="31.0002" r="1.66667" transform="rotate(90 30.6668 31.0002)" fill="white">
-                </circle>
-                <circle cx="30.6668" cy="74.6667" r="1.66667" transform="rotate(90 30.6668 74.6667)" fill="white">
-                </circle>
-                <circle cx="1.66683" cy="31.0002" r="1.66667" transform="rotate(90 1.66683 31.0002)" fill="white">
-                </circle>
-                <circle cx="1.66683" cy="74.6667" r="1.66667" transform="rotate(90 1.66683 74.6667)" fill="white">
-                </circle>
-                <circle cx="45.0001" cy="45.6667" r="1.66667" transform="rotate(90 45.0001 45.6667)" fill="white">
-                </circle>
-                <circle cx="16.0001" cy="45.6667" r="1.66667" transform="rotate(90 16.0001 45.6667)" fill="white">
-                </circle>
-                <circle cx="59.0001" cy="45.6667" r="1.66667" transform="rotate(90 59.0001 45.6667)" fill="white">
-                </circle>
-                <circle cx="30.6668" cy="45.6667" r="1.66667" transform="rotate(90 30.6668 45.6667)" fill="white">
-                </circle>
-                <circle cx="1.66683" cy="45.6667" r="1.66667" transform="rotate(90 1.66683 45.6667)" fill="white">
-                </circle>
-                <circle cx="45.0001" cy="60.3332" r="1.66667" transform="rotate(90 45.0001 60.3332)" fill="white">
-                </circle>
-                <circle cx="16.0001" cy="60.3332" r="1.66667" transform="rotate(90 16.0001 60.3332)" fill="white">
-                </circle>
-                <circle cx="59.0001" cy="60.3332" r="1.66667" transform="rotate(90 59.0001 60.3332)" fill="white">
-                </circle>
-                <circle cx="30.6668" cy="60.3332" r="1.66667" transform="rotate(90 30.6668 60.3332)" fill="white">
-                </circle>
-                <circle cx="1.66683" cy="60.3332" r="1.66667" transform="rotate(90 1.66683 60.3332)" fill="white">
-                </circle>
-            </g>
-        </svg></div>
-    </footer>
+
     </div>
     );
 }

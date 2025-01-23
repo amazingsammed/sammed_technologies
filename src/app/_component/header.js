@@ -1,6 +1,5 @@
 import React from 'react';
 import Link from "next/link";
-import Container from "@/app/_system/container";
 import DropDownSVG, {SearchSVG} from "@/app/_system/mysvg";
 
 const tabs = [

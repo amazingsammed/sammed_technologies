@@ -1,6 +1,7 @@
 import React from 'react';
 import Container from "@/app/_system/container";
 import {ArrowRightSVG} from "@/app/_system/mysvg";
+import Image from "next/image";
 const OurServices =[
     {title:"Website Development",
     description:"We create professional website for small, medium and large scale businesses",
@@ -39,7 +40,7 @@ function Services() {
                     {OurServices.map((service ,key) => (
                         <div key={key} className="w-full px-4 md:w-1/2 lg:w-1/3">
                             <div className="mb-10 bg-white"><a className="relative block aspect-[34/23] w-full"
-                                                               href={service.url}><img
+                                                               href={service.url}><Image
                                 alt={service.title} loading="lazy"
                                 decoding="async" data-nimg="fill" className="w-full object-cover object-center"
                                 // style="position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent"
