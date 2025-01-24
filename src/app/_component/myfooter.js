@@ -10,10 +10,9 @@ function Myfooter() {
                             <h2 className="mb-5 text-4xl font-bold leading-tight text-white md:text-[44px]">Lets
                                 Talk!</h2>
                             <h3 className="mb-2 text-2xl font-bold text-white opacity-70">Contact Info</h3>
-                            <p className="mb-1 text-base font-medium text-body-color">closerpage@email.com</p>
-                            <p className="mb-1 text-base font-medium text-body-color">12 Hilton St, Manchester M1
-                                1JF</p>
-                            <p className="mb-1 text-base font-medium text-body-color">+44 012 34 5678</p>
+                            <p className="mb-1 text-base font-medium text-body-color">sammedtechnologies@gmail.com</p>
+                            <p className="mb-1 text-base font-medium text-body-color">Pankrono-Kumasi ,Ghana</p>
+                            <p className="mb-1 text-base font-medium text-body-color">+233 543220177</p>
                         </div>
                     </div>
                     <div className="w-full px-4 md:w-1/2 lg:w-3/12">
@@ -109,15 +108,13 @@ function Myfooter() {
                             </defs>
                         </svg>
                     </a></div>
-                    <p className="text-center text-base font-medium text-body-color">Next.js Site Template for Agency
-                        and
-                        Portfolio - © 2024</p>
+                    <p className="text-center text-base font-medium text-body-color">Sammed Technologies and Services - © GH 2024</p>
                 </div>
             </div>
             <div className="-z-1 absolute bottom-0 left-0" aria-label="shape"><span className="hidden">shape</span>
                 <svg width="143"
                      height="138" viewBox="0 0 143 138" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <circle cx="25" cy="118" r="101" stroke="url(#paint0_linear_52:83)" stroke-width="34"></circle>
+                    <circle cx="25" cy="118" r="101" stroke="url(#paint0_linear_52:83)" strokeWidth="34"></circle>
                     <defs>
                         <linearGradient id="paint0_linear_52:83" x1="-12.7969" y1="-37.3359" x2="99.2109" y2="173.773"
                                         gradientUnits="userSpaceOnUse">

@@ -1,10 +1,11 @@
 import React from 'react';
 import Image from "next/image";
+import Container from "@/app/_system/container";
 function Ourteam() {
     return (
         <div>
             <section className="mt-[-160px] bg-white">
-                <div className="container">
+                <Container className="container">
                     <div className="relative z-10 overflow-hidden rounded-md bg-primary py-[70px] text-center">
                         <div className="relative z-10 mx-auto max-w-[770px] px-6">
                             <h2 className="mb-10 text-2xl font-bold leading-tight text-white md:text-[40px]">Subscribe
@@ -46,10 +47,10 @@ function Ourteam() {
                             </svg>
                         </div>
                     </div>
-                </div>
+                </Container>
             </section>
             <section className="bg-white pt-20 lg:pt-[120px]">
-                <div className="container">
+                <Container className="container">
                     <div className="-mx-4 flex flex-wrap">
                         <div className="w-full px-4">
                             <div className="mx-auto mb-[60px] max-w-[510px] text-center"><span
@@ -368,7 +369,7 @@ function Ourteam() {
                             </div>
                         </div>
                     </div>
-                </div>
+                </Container>
             </section>
         </div>
     );

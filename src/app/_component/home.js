@@ -35,9 +35,10 @@ function HomePage() {
                                 className="relative z-10 flex aspect-[491/515] w-full max-w-[491px] pt-11 lg:justify-end lg:pt-0">
                                 <Image alt="hero" loading="lazy" decoding="async" data-nimg="fill"
                                     //style="position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent"
-                                     sizes="100vw"
+                                    height={"100"}
+                                     width={"1000"}
                                     // srcSet="img_49 640w, img_47 750w, img_23 828w, img_27 1080w, img_26 1200w, img_24 1920w, img_62 2048w, img_6 3840w"
-                                     src="images/image_47.png"/><span className="absolute -bottom-8 -left-8 z-[-1]">
+                                     src="/images/image_47.png"/><span className="absolute -bottom-8 -left-8 z-[-1]">
                                <DotDotSVG/>
                             </span></div>
                         </div>

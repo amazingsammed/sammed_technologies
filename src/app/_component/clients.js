@@ -1,9 +1,10 @@
 import React from 'react';
 import Image from "next/image";
+import Container from "@/app/_system/container";
 function Clients() {
     return (
         <section id="clients" className="relative bg-black pb-[250px] pt-20">
-            <div className="container">
+            <Container className="container">
                 <div className="mx-[-16px] flex flex-wrap">
                     <div className="w-full px-4">
                         <div className="mx-auto mb-12 max-w-[570px] text-center">
@@ -44,7 +45,7 @@ function Clients() {
                             src="images/graygrids-2.432f9e06.svg"/></a></div>
                     </div>
                 </div>
-            </div>
+            </Container>
         </section>
     );
 }

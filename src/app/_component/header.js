@@ -87,7 +87,7 @@ function Header() {
                                      className="hidden lg:block absolute right-4 top-full w-full max-w-[250px] rounded-lg bg-white p-5 py-5 shadow-lg max-lg:max-h-[350px] max-lg:overflow-y-auto lg:static lg:block lg:w-full lg:max-w-full lg:bg-transparent lg:px-4 lg:py-0 lg:shadow-none xl:px-6">
                                     <ul className="block lg:flex">
                                         {tabs.map((tab, index) => (
-                                            <li key={index} className="group relative lg:px-5 ">
+                                            <div key={index} className="group relative lg:px-5 ">
                                                 {!tab.hasChildren ? (<Link
                                                     className=" flex py-2 text-base text-black group-hover:text-primary lg:mr-0 lg:inline-flex lg:px-0 lg:py-6 menu-scroll"
                                                     href={tab.url}>{tab.title}</Link>) : (
@@ -108,7 +108,7 @@ function Header() {
                                                     </li>
                                                 )}
 
-                                            </li>
+                                            </div>
                                         ))}
 
                                     </ul>
