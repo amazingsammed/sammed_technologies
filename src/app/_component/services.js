@@ -5,15 +5,15 @@ import Image from "next/image";
 const OurServices =[
     {title:"Website Development",
     description:"We create professional website for small, medium and large scale businesses",
-    image:"",
+    image:"/images/image_3",
     url:"/service/website-development"},
     {title:"Graphics Design",
         description:"We create poster for various occasions and flyers for specific needs",
-        image:"",
+        image:"/images/image_2",
         url:"/service/graphics-design"},
     {title:"App Development",
         description:"We create Application software for various platforms such as Android, IOS, Mac ,Windows and Linux",
-        image:"",
+        image:"/images/image_4",
         url:"/service/app-development"},
 ];
 function Services() {
@@ -45,6 +45,8 @@ function Services() {
                                 decoding="async" data-nimg="fill" className="w-full object-cover object-center"
                                 // style="position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent"
                                 sizes="100vw"
+                                width={'1000'}
+                                height={'1000'}
                                src={service.image}/></a>
                                 <div className="p-8 sm:p-11 md:p-8 lg:px-6 xl:p-10 2xl:p-11">
                                     <h3><a

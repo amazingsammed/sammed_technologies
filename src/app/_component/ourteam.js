@@ -1,9 +1,9 @@
 import React from 'react';
 import Image from "next/image";
 import Container from "@/app/_system/container";
+
 function Ourteam() {
-    return (
-        <div>
+    return (<div>
             <section className="mt-[-160px] bg-white">
                 <Container className="container">
                     <div className="relative z-10 overflow-hidden rounded-md bg-primary py-[70px] text-center">
@@ -70,10 +70,12 @@ function Ourteam() {
                                     alt="Coriss Ambady"
                                     loading="lazy" decoding="async" data-nimg="fill"
                                     className="w-full object-cover object-center"
+                                    width={'1000'}
+                                    height={'1000'}
                                     //      style="position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent"
                                     sizes="100vw"
-                                    srcSet="image_86 640w, image_88 750w, image_89 828w, image_90 1080w, image_91 1200w, image_32 1920w, image_92 2048w, image_8 3840w"
-                                    src="image_8"/>
+                                   // srcSet="image_86 640w, image_88 750w, image_89 828w, image_90 1080w, image_91 1200w, image_32 1920w, image_92 2048w, image_8 3840w"
+                                    src="/images/image_8"/>
                                     <div className="absolute bottom-5 left-0 w-full text-center">
                                         <div className="relative mx-5 overflow-hidden rounded-lg bg-white px-3 py-5">
                                             <h3 className="text-base font-semibold text-dark">Coriss Ambady</h3>
@@ -144,12 +146,14 @@ function Ourteam() {
                             <div className="mx-auto mb-10 w-full max-w-[370px]">
                                 <div className="relative aspect-[149/182] overflow-hidden rounded-lg"><Image
                                     alt="Glorius Cristian"
+                                    width={'1000'}
+                                    height={'1000'}
                                     loading="lazy" decoding="async" data-nimg="fill"
                                     className="w-full object-cover object-center"
                                     //  style="position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent"
                                     sizes="100vw"
-                                    srcSet="image_94 640w, image_33 750w, image_34 828w, image_93 1080w, image_96 1200w, image_97 1920w, image_98 2048w, image_9 3840w"
-                                    src="image_9"/>
+                                   // srcSet="image_94 640w, image_33 750w, image_34 828w, image_93 1080w, image_96 1200w, image_97 1920w, image_98 2048w, image_9 3840w"
+                                    src="/images/image_9"/>
                                     <div className="absolute bottom-5 left-0 w-full text-center">
                                         <div className="relative mx-5 overflow-hidden rounded-lg bg-white px-3 py-5">
                                             <h3 className="text-base font-semibold text-dark">Glorius Cristian</h3>
@@ -220,12 +224,14 @@ function Ourteam() {
                             <div className="mx-auto mb-10 w-full max-w-[370px]">
                                 <div className="relative aspect-[149/182] overflow-hidden rounded-lg"><Image
                                     alt="Jackie Sanders"
+                                    width={'1000'}
+                                    height={'1000'}
                                     loading="lazy" decoding="async" data-nimg="fill"
                                     className="w-full object-cover object-center"
                                     //      style="position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent"
                                     sizes="100vw"
-                                    srcSet="image_95 640w, image_100 750w, image_99 828w, image_104 1080w, image_101 1200w, image_102 1920w, image_37 2048w, image_10 3840w"
-                                    src="image_10"/>
+                                   // srcSet="image_95 640w, image_100 750w, image_99 828w, image_104 1080w, image_101 1200w, image_102 1920w, image_37 2048w, image_10 3840w"
+                                    src="/images/image_10"/>
                                     <div className="absolute bottom-5 left-0 w-full text-center">
                                         <div className="relative mx-5 overflow-hidden rounded-lg bg-white px-3 py-5">
                                             <h3 className="text-base font-semibold text-dark">Jackie Sanders</h3>
@@ -296,12 +302,14 @@ function Ourteam() {
                             <div className="mx-auto mb-10 w-full max-w-[370px]">
                                 <div className="relative aspect-[149/182] overflow-hidden rounded-lg"><Image
                                     alt="Nikolas Brooten"
+                                    width={'1000'}
+                                    height={'1000'}
                                     loading="lazy" decoding="async" data-nimg="fill"
                                     className="w-full object-cover object-center"
                                     //    style="position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent"
                                     sizes="100vw"
-                                    srcSet="image_105 640w, image_103 750w, image_35 828w, image_106 1080w, image_39 1200w, image_36 1920w, image_38 2048w, image_12 3840w"
-                                    src="image_12"/>
+                                   // srcSet="image_105 640w, image_103 750w, image_35 828w, image_106 1080w, image_39 1200w, image_36 1920w, image_38 2048w, image_12 3840w"
+                                    src="/images/image_12"/>
                                     <div className="absolute bottom-5 left-0 w-full text-center">
                                         <div className="relative mx-5 overflow-hidden rounded-lg bg-white px-3 py-5">
                                             <h3 className="text-base font-semibold text-dark">Nikolas Brooten</h3>
@@ -371,8 +379,7 @@ function Ourteam() {
                     </div>
                 </Container>
             </section>
-        </div>
-    );
+        </div>);
 }
 
 export default Ourteam;

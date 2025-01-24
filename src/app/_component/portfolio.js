@@ -48,13 +48,13 @@ function Portfolio() {
                     <div className="w-full px-4 xl:w-10/12">
                         <div>
                             <div
-                                //  style="display:flex;flex-direction:row;justify-content:center;align-content:stretch;box-sizing:border-box;width:100%;gap:30px"
+                                className="flex flex-row justify-center items-stretch  box-border border-b w-full gap-[30px]"
                             >
                                 <div
                                     // style="display:flex;flex-direction:column;justify-content:flex-start;align-content:stretch;flex:1;width:0;gap:30px"
                                 >
                                     <div
-                                        //  className="flex justify-stretch"
+                                          className="flex justify-stretch"
                                     >
                                         <div className="mb-4">
                                             <div
@@ -63,8 +63,10 @@ function Portfolio() {
                                                      className="w-full"
                                                     // style="position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent"
                                                      sizes="100vw"
+                                                       width={'1000'}
+                                                       height={'1000'}
                                                      srcSet="image_28 640w, image_59 750w, image_60 828w, image_75 1080w, image_65 1200w, image_74 1920w, image_69 2048w, image_1 3840w"
-                                                     src="image_1"/>
+                                                     src="/images/image_1.jpg"/>
                                                 <div
                                                     className="invisible absolute left-0 top-0 flex h-full w-full items-center justify-center bg-primary bg-opacity-[17%] opacity-0 transition group-hover:visible group-hover:opacity-100">
                                                     <button
@@ -93,10 +95,12 @@ function Portfolio() {
                                                 className="group relative mb-8 aspect-[518/291] overflow-hidden rounded-md shadow-service">
                                                 <Image alt="image" loading="lazy" decoding="async" data-nimg="fill"
                                                      className="w-full"
+                                                       width={'1000'}
+                                                       height={'1000'}
                                                     // style="position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent"
                                                      sizes="100vw"
                                                      srcSet="image_70 640w, image_63 750w, image_68 828w, image_78 1080w, image_73 1200w, image_67 1920w, image_61 2048w, image_5 3840w"
-                                                     src="image_5"/>
+                                                     src="/images/image_5"/>
                                                 <div
                                                     className="invisible absolute left-0 top-0 flex h-full w-full items-center justify-center bg-primary bg-opacity-[17%] opacity-0 transition group-hover:visible group-hover:opacity-100">
                                                     <button
@@ -129,8 +133,10 @@ function Portfolio() {
                                                      className="w-full"
                                                     // style="position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent"
                                                      sizes="100vw"
+                                                       width={'1000'}
+                                                       height={'1000'}
                                                      srcSet="image_72 640w, image_71 750w, image_64 828w, image_66 1080w, image_77 1200w, image_76 1920w, image_79 2048w, image 3840w"
-                                                     src="image"/>
+                                                     src="/images/image.jpg"/>
                                                 <div
                                                     className="invisible absolute left-0 top-0 flex h-full w-full items-center justify-center bg-primary bg-opacity-[17%] opacity-0 transition group-hover:visible group-hover:opacity-100">
                                                     <button
@@ -160,8 +166,10 @@ function Portfolio() {
                                                      className="w-full"
                                                     // style="position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent"
                                                      sizes="100vw"
+                                                       width={'1000'}
+                                                       height={'1000'}
                                                      srcSet="image_80 640w, image_82 750w, image_81 828w, image_84 1080w, image_83 1200w, image_87 1920w, image_85 2048w, image_7 3840w"
-                                                     src="image_7"/>
+                                                     src="/images/image_7"/>
                                                 <div
                                                     className="invisible absolute left-0 top-0 flex h-full w-full items-center justify-center bg-primary bg-opacity-[17%] opacity-0 transition group-hover:visible group-hover:opacity-100">
                                                     <button

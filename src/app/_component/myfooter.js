@@ -1,9 +1,10 @@
 import React from 'react';
+import Container from "@/app/_system/container";
 
 function Myfooter() {
     return (
         <footer className="relative z-10 bg-black pb-12 pt-[100px]">
-            <div className="container">
+            <Container className="container">
                 <div className="-mx-4 flex flex-wrap">
                     <div className="w-full px-4 md:w-1/2 lg:w-4/12">
                         <div className="mb-10">
@@ -110,7 +111,7 @@ function Myfooter() {
                     </a></div>
                     <p className="text-center text-base font-medium text-body-color">Sammed Technologies and Services - © GH 2024</p>
                 </div>
-            </div>
+            </Container>
             <div className="-z-1 absolute bottom-0 left-0" aria-label="shape"><span className="hidden">shape</span>
                 <svg width="143"
                      height="138" viewBox="0 0 143 138" fill="none" xmlns="http://www.w3.org/2000/svg">
