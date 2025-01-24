@@ -1,7 +1,7 @@
 import Header from "@/app/_component/header";
 import About from "@/app/_component/about";
 import HomePage from "@/app/_component/home";
-//import Services from "@/app/_component/services";
+// import Services from "@/app/_component/services";23
 import Allothers from "@/app/_component/allothers";
 //import Portfolio from "@/app/_component/portfolio";
 //import Clients from "@/app/_component/clients";
