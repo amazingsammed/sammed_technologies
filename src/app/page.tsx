@@ -10,7 +10,7 @@ import Ourteam from "@/app/_component/ourteam";
 
 export default function Home() {
   return (
-   <main >
+   <div >
      <Header/>
        <HomePage/>
        <About/>
@@ -20,6 +20,6 @@ export default function Home() {
        <Ourteam/>
        <Allothers/>
        <Myfooter/>
-   </main>
+   </div>
       );
 }
