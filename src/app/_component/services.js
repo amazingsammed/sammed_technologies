@@ -27,7 +27,7 @@ const OurServices = [
 
 function Services() {
     return (
-        <section id="services" className="bg-black pb-12 pt-20 lg:pb-[90px] lg:pt-[120px]">
+        <section id="services" className=" pb-12 pt-20 lg:pb-[90px] lg:pt-[120px]">
             <Container className="container">
                 <div className="-mx-4 mb-10 flex flex-wrap items-end lg:mb-[60px]">
                     <div className="w-full px-4 lg:w-8/12">
