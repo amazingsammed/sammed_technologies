@@ -24,11 +24,18 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
+    <head>
+        <script async
+                src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5034627120549852"
+                crossOrigin="anonymous"></script>
+        <title>Sammed</title>
+    </head>
+    <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        {children}
-      </body>
+    >
+    {children}
+    </body>
+
     </html>
   );
 }
