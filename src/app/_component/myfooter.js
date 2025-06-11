@@ -13,7 +13,7 @@ function Myfooter() {
                             <h3 className="mb-2 text-2xl font-bold text-white opacity-70">Contact Info</h3>
                             <p className="mb-1 text-base font-medium text-body-color">sammedtechnologies@gmail.com</p>
                             <p className="mb-1 text-base font-medium text-body-color">Pankrono-Kumasi ,Ghana</p>
-                            <p className="mb-1 text-base font-medium text-body-color">+233 543220177</p>
+                            <p className="mb-1 text-base font-medium text-body-color">+233 595188301</p>
                         </div>
                     </div>
                     <div className="w-full px-4 md:w-1/2 lg:w-3/12">

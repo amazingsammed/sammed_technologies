@@ -17,6 +17,7 @@ export const metadata: Metadata = {
   description: "Ghanaian Based Agency for IT Solutions",
 };
 
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -25,10 +26,9 @@ export default function RootLayout({
   return (
     <html lang="en">
     <head>
-        <script async
-                src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5034627120549852"
-                crossOrigin="anonymous"></script>
-        <title>Sammed</title>
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5034627120549852"
+              crossOrigin="anonymous"></script>
+      <title></title>
     </head>
     <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
